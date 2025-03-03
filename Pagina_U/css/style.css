@@ -1,0 +1,37 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+header{
+    height: 20vh;
+    #buscador {
+        position: relative;
+        right: 20px;
+    
+        #bus{
+            border: none;
+        }
+    }
+}
+#logogov{
+margin-left: 800px !important;
+margin-top: 3px !important;
+}
+.navbar{
+    height: 15vh;
+}
+#contenedor{
+    justify-content: left;
+}
+#imagenes{
+}
+
+
+
+
