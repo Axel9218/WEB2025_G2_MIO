@@ -188,9 +188,9 @@ ul li a {
 }
 
 .accordion {
-    max-width: 600px; /* Establece un ancho máximo */
-    margin: auto; /* Centra el acordeón en la página */
-    font-size: 15px; /* Reduce el tamaño de la fuente */
+    max-width: 600px; 
+    margin: auto; 
+    font-size: 15px; 
 }
 
 #redes{
@@ -253,8 +253,48 @@ ul li a {
     text-align: center;
 }
 
+/* ///////////////////////////// */
 
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+}
 
+.logos2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+}
+
+.logos2 img {
+    width: 80px; 
+    height: auto; 
+}
+
+.logos img {
+    max-height: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.enlaces a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.enlaces a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 768px) {
     .navbar {
