@@ -218,6 +218,44 @@ ul li a {
     justify-content: center;
 }
 
+/* //////////////////////////////////////////////////// */
+
+.container {
+    text-align: center;
+}
+
+.lista-enlaces {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-enlaces li {
+    margin: 5px 0;
+}
+
+.lista-enlaces a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lista-enlaces a:hover {
+    text-decoration: underline;
+}
+
+#tituloRojo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col {
+    text-align: center;
+}
+
+
+
+
 @media (max-width: 768px) {
     .navbar {
         padding: 10px;
