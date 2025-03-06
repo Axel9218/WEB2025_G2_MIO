@@ -1,37 +1,233 @@
-*{
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #335e2b;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: blueviolet;
+
+.cajones{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
 }
-header{
-    height: 20vh;
-    #buscador {
-        position: relative;
-        right: 20px;
-    
-        #bus{
-            border: none;
-        }
+
+.row {
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 !important;
+    margin: 0;
+    color: #000000;
+}
+
+.container, .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #ffffff !important;
+    padding: 10px 20px;
+}
+
+#letratitulo {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#letratitulo:hover {
+    color: #107cf8;
+}
+
+#logou, #logogov {
+    border-radius: 5px;
+}
+
+#buscador input {
+    border-radius: 20px;
+}
+
+#bus {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#bus img {
+    width: 25px;
+    height: 25px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#cuerpo {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 26vh;
+}
+#cuerpo2 {
+    margin: 0px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 19vh;
+}
+
+.noti {
+    background-color: rgb(39, 97, 39);
+    width: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 10);
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.noti2 {
+    background-color: rgb(39, 97, 39);
+    width: 150px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 10);
+    text-align: center;
+    align-content: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.enu{
+    text-decoration: none;
+    color: #ffffff;
+}
+.noti:hover {
+    transform: scale(1.05);
+    background-color: #31772e;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.logos{
+    width: 100px;
+}
+
+#noticias {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 70vh;
+}
+
+.card {
+    text-align: center; 
+}
+
+.sidebar {
+    width: 250px;
+    padding: 50px;
+    margin-left: 60px;
+}
+
+.enlacesima {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.enlacesima img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 360px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.accordion {
+    max-width: 600px; /* Establece un ancho máximo */
+    margin: auto; /* Centra el acordeón en la página */
+    font-size: 15px; /* Reduce el tamaño de la fuente */
+}
+
+#redes{
+    background-color: #ffffff;
+}
+.repositorio {
+    width: 100%;
+    max-width: 360px;
+    margin: 20px auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.repositorio img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+#foto{
+    width: 100%;
+    max-width: 360px;
+    margin: 20px auto; 
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    #letratitulo {
+        font-size: 1.2rem;
+    }
+
+    .noti {
+        font-size: 1rem;
     }
 }
-#logogov{
-margin-left: 800px !important;
-margin-top: 3px !important;
-}
-.navbar{
-    height: 15vh;
-}
-#contenedor{
-    justify-content: left;
-}
-#imagenes{
-}
-
-
-
-
